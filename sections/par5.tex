@@ -1,0 +1,41 @@
+\subsection{Дизъюнктивная нормальная форма (ДНФ)}
+
+\begin{theorem-non}
+    \begin{equation*}
+        x^{\sigma} = 
+        \begin{cases}
+            x, &\text{$\sigma = 1$}\\
+            \neg x, &\text{$\sigma = 0$}
+        \end{cases}
+    \end{equation*}
+\end{theorem-non}
+
+\begin{defn}
+    Простая конъюнкция --- конъюнкция одной или нескольких переменных или их отрицаний, причем все переменные встречаются не более одного раза.
+\end{defn}
+
+\begin{defn}
+    Дизъюнктивная  нормальная форма --- преставление булевой функции в виде дизъюнкции простых конъюнкций. 
+\end{defn}
+
+\begin{example}
+    $(x \wedge \neg y) \vee z$
+\end{example}
+
+\begin{defn}
+    Совершенная ДНФ --- ДНФ, в любой конъюнкции которой участвуют все переменные.
+\end{defn}
+
+\subsubsection*{Построение СДНФ по таблице истинности}
+
+\[f(x_1, \ldots, x_n) = \bigvee_{f(\sigma_1, \ldots, \sigma_n) = 1} 
+(x_1^{\sigma_1}\ \wedge\  \ldots\ \wedge\ x_n^{\sigma_n})\]
+
+\begin{theorem}
+    Для любой булевой функции, не равной тождественно нулю, существует СДНФ ее задающая.
+\end{theorem}
+
+\begin{proof} 
+    $(x_1^{\sigma_1}\ \wedge\ , \ldots,\ \wedge\ x_n^{\sigma_n}) = 1 \iff \forall_{i=1}^{n} \ x_i^{\sigma_i} = 1 \iff \forall_{i=1}^{n} \ x_i = \sigma_i$ по обозначению $x^{\sigma}$. 
+    Булева функция не равна 0 $\iff \exists\ (x_1^{\sigma_1} \ \wedge\ , \ldots,\ \wedge\ x_n^{\sigma_n}) = 1 \iff$ для некоторого набора $(\sigma_1, \ldots, \sigma_n)\ \forall_{i=1}^{n}\ x_i = \sigma_i \iff f(x_1, \ldots, x_n) = 1$ по построению. 
+\end{proof}

@@ -1,0 +1,41 @@
+\subsection{Замкнутые классы}
+
+\begin{defn}
+    Замыкание $[\mathcal{F} \mbox{ --- множество булевых функций}]$ относительно суперпозиции --- множество всех булевых функций, представимых формулой над $\mathcal{F}$.
+\end{defn}
+
+\begin{examples}~
+
+    $[0] = 0$, 
+    
+    $[\neg x]  = \{x,\neg x\}$, 
+    
+    $[x \vee y] = \{x_1\ \vee\ \ldots\ \vee\ x_n \mid n > 1\}$.
+\end{examples}
+
+\begin{defn}
+    Замкнутый класс --- класс булевых функций, равный своему замыканию.
+\end{defn}
+
+\begin{defn}
+    $T_0$ --- класс функций, сохраняющих ноль:  
+    \[ T_0 = \{f \mid f(0, \ldots 0) = 0\}. \] 
+\end{defn}
+
+\begin{defn}
+    $T_1$ --- класс функций, сохраняющих единицу: 
+    \[ T_1 = \{ f \mid f(1, \ldots 1) = 1\}. \] 
+\end{defn}
+
+\begin{examples}~
+    \begin{itemize}
+        \item $\vee$ и $\wedge$ сохраняют 0 и 1
+        \item $\oplus$ сохраняет только 0
+        \item $\to$ сохраняет только 1
+        \item $\neg$ ничего не сохраняет
+    \end{itemize}
+\end{examples}
+
+\begin{theorem-non}
+        Классы функций $T_0$ и $T_1$ замкнуты.
+\end{theorem-non}

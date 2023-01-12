@@ -1,0 +1,38 @@
+\subsection{Представление булевых функций}
+
+\begin{notice}
+    Всего существует $2^{2^{n}}$ булевых функций от $n$ переменных.
+\end{notice}
+
+\subsubsection*{Таблица истинности:}
+
+\begin{center}
+    \begin{tabular}{c|c}
+        $x$ & $\neg x$ \\ 
+        \hline
+        0 & 1 \\
+        1 & 0
+    \end{tabular}
+    \quad \quad \quad
+    \begin{tabular}{c c|c c c c}
+        $x$ & $y$ & $x \wedge y$ & $x \vee y$ & $x \to y$ & $x \oplus y$ \\ 
+        \hline
+        0 & 0 & 0 & 0 & 1 & 0\\
+        0 & 1 & 0 & 1 & 1 & 1\\
+        1 & 0 & 0 & 1 & 0 & 1\\
+        1 & 1 & 1 & 1 & 1 & 0
+    \end{tabular}
+\end{center}
+
+\subsubsection*{Вектор истинности:}
+
+Упорядочим все наборы в лексикографическом порядке, тогда $i$-й компоненте вектора сопоставим значение функции в $i$-м наборе.\\
+
+\begin{examples}~
+    \begin{itemize}
+        \item $x \wedge y = (0, 0, 0, 1)$
+        \item $x \vee y = (0, 1, 1, 1)$
+        \item $x \to y = (1, 1, 0, 1)$
+        \item $x \oplus y = (0, 1, 1, 0)$
+    \end{itemize} 
+\end{examples}

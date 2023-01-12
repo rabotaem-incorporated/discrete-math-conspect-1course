@@ -1,0 +1,38 @@
+\subsection{Многочлен Жегалкина}
+
+\begin{defn}
+    Многочлен Жегалкина --- сумма по модулю два конъюнкций переменных (также допускается слагаемое-единица) без повторения слагаемых, а также константа 0.\\
+    \example $f(x, y, z) = 1 \oplus x \oplus (x \wedge y \wedge z)$
+\end{defn}
+
+\subsubsection*{Общий вид}
+
+\[ \def\useanchorwidth{F}\stackMath
+    f(x_1, \ldots, x_n) = a \oplus \mathop{\stackunder{\bigoplus}{\def\stackalignment{l}%
+    \stackunder[2pt]{\scriptscriptstyle 1 \leq i_1 < \ldots < i_k \leq n}
+                    {\scriptscriptstyle k \in \{1, \ldots, n\}}
+    }} a_{i_1 \ldots i_k} \wedge x_{i_1} \wedge \ldots \wedge x_{i_k}\]
+где $a_i, a_{i_1 \ldots i_k} \in \{0, 1\}$\\
+
+\begin{notice}
+    Зачастую константу 0 не считают полиномом Жегалкина, то есть в выражении допускаются только конъюнкции, сложения и константа 1.
+\end{notice}
+
+\begin{theorem}
+    Для каждой функции существует единственное представление многочленом Жегалкина.
+\end{theorem}
+
+\begin{proof}
+
+    \textsl{Существование:} Преобразуем ДНФ:
+
+    замена дизъюнкции: $x \vee y = x \oplus y \oplus (x \wedge y)$
+    
+    замена отрицаний: $\neg x = x \oplus 1$ 
+    
+    раскрытие скобок: $(x \oplus y) \wedge z = (x \wedge z) \oplus (y \wedge z)$
+    
+    сокращение одинаковых слагаемых: $x \oplus x = 0$
+    
+    \textsl{Единственность:} всего многочленов Жегалкина $2^{2^{n}}$; функций столько же $\implies$ представление единственно.
+\end{proof}

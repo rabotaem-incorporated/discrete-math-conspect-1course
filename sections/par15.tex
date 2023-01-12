@@ -1,0 +1,27 @@
+\subsection{Факториал}
+
+\begin{lemma} (грубые оценки для $n!$)
+    \[ \left( \frac{n}{e} \right)^n < n! < n^n \]
+\end{lemma}
+
+\begin{proof}
+    Верхняя оценка очевидна.\\
+    Докажем нижнюю оценку по индукции.
+
+    \textsl{База:} $\left( \frac{1}{e} < 1 \right)$, верно.
+
+    \textsl{Переход:} Пусть верно для $n$: $\left( \frac{n}{e} \right)^n < n!$.\\
+    Покажем для $(n + 1)$.\\
+    $(n + 1)! = (n + 1)n! > (n + 1) \left( \frac{n}{e} \right)^n$ (по предположению индукции).\\
+    Надо показать: $(n + 1) \left( \frac{n}{e} \right)^n > \left( \frac{(n + 1)}{e} \right)^{n + 1}$.\\
+    Это верно тогда и только тогда, когда $en^n > (n + 1)^n$.\\
+    что в свою очередь равносильно $\left( 1 + \frac{1}{n} \right)^n < e$, что верно.
+\end{proof}
+
+\begin{theorem} (формула Стирлинга)
+    \[ n! = (1 + o(1)) \sqrt{2 \pi n} \left( \frac{n}{e} \right)^n \]
+\end{theorem}
+
+\begin{proof}
+    в курсе матанализа.
+\end{proof}

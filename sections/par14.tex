@@ -1,0 +1,35 @@
+\subsection{Число сочетаний}
+
+\begin{theorem}
+    \[ C_n^k = C_{n-1}^k + C_{n-1}^{k-1}. \]
+\end{theorem}
+
+\begin{proof}
+    \begin{gather*}
+        C_{n-1}^k + C_{n-1}^{k-1} = \frac{(n - 1)!}{(n - k - 1)!k!} + \frac{(n - 1)!}{(n - k)!(k - 1)!} =\\
+        \frac{(n - 1)! ((n - k) + k)}{(n - k)! k!} = \frac{n!}{(n - k)! k!} = C_n^k.
+    \end{gather*}
+\end{proof}
+
+\subsubsection*{Треугольник Паскаля}
+
+\begin{gather*}
+    1 \\
+    1 \quad \quad \quad 1 \\
+    1 \quad \quad \quad 2 \quad \quad \quad 1 \\
+    1 \quad \quad \quad 3 \quad \quad \quad 3 \quad \quad \quad 1 \\
+    1 \quad \quad \quad 4 \quad \quad \quad 6 \quad \quad \quad 4 \quad \quad \quad 1 \\
+    \cdots\\
+    C_{n-1}^k \quad \quad \quad C_{n-1}^{k-1}\\
+    C_n^k
+\end{gather*}
+
+\subsubsection*{Бином Ньютона}
+
+\begin{theorem}
+    \[ (a + b)^n = \sum\limits_{k = 0}^n C_n^k a^k b^{n - k}. \]
+\end{theorem}
+
+\begin{proof}
+    Член $a^k b^{n - k}$ учавствует в разложении $(a + b)^n$ столько раз, сколько есть способов выбрать $a$ в $k$ множителях из $n$ (и, соответственно, $b$ в $n - k$ множителях из $n$) ---  а это $C_n^k$.
+\end{proof}

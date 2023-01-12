@@ -1,0 +1,61 @@
+\babel@toc {russian}{}\relax 
+\contentsline {section}{Булевы функции}{1}{section*.2}%
+\contentsline {subsection}{\numberline {1}Определение}{1}{subsection.0.1}%
+\contentsline {subsection}{\numberline {2}Представление булевых функций}{1}{subsection.0.2}%
+\contentsline {subsection}{\numberline {3}Основные эквивалентности}{2}{subsection.0.3}%
+\contentsline {subsection}{\numberline {4}Формулы}{2}{subsection.0.4}%
+\contentsline {subsection}{\numberline {5}Дизъюнктивная нормальная форма (ДНФ)}{2}{subsection.0.5}%
+\contentsline {subsection}{\numberline {6}Конъюктивная нормальная форма (КНФ)}{3}{subsection.0.6}%
+\contentsline {subsection}{\numberline {7}Многочлен Жегалкина}{3}{subsection.0.7}%
+\contentsline {subsection}{\numberline {8}Замкнутые классы}{4}{subsection.0.8}%
+\contentsline {subsection}{\numberline {9}Двойственные функции}{5}{subsection.0.9}%
+\contentsline {subsection}{\numberline {10}Монотонные функции}{5}{subsection.0.10}%
+\contentsline {subsection}{\numberline {11}Линейные функции}{5}{subsection.0.11}%
+\contentsline {subsection}{\numberline {12}Критерий полноты системы функций}{6}{subsection.0.12}%
+\contentsline {section}{Комбинаторика}{8}{section*.9}%
+\contentsline {subsection}{\numberline {13}Выборки}{8}{subsection.0.13}%
+\contentsline {subsection}{\numberline {14}Число сочетаний}{9}{subsection.0.14}%
+\contentsline {subsection}{\numberline {15}Факториал}{10}{subsection.0.15}%
+\contentsline {subsection}{\numberline {16}Числа Каталана}{10}{subsection.0.16}%
+\contentsline {section}{Введение в графы}{14}{section*.20}%
+\contentsline {subsection}{\numberline {17}Граф}{14}{subsection.0.17}%
+\contentsline {subsection}{\numberline {18}Основные определения}{17}{subsection.0.18}%
+\contentsline {subsection}{\numberline {19}Эйлеровы циклы и пути}{19}{subsection.0.19}%
+\contentsline {subsection}{\numberline {20}Гамильтоновы циклы и пути}{21}{subsection.0.20}%
+\contentsline {section}{Деревья}{23}{section*.33}%
+\contentsline {subsection}{\numberline {21}Дерево}{23}{subsection.0.21}%
+\contentsline {subsection}{\numberline {22}Мосты}{23}{subsection.0.22}%
+\contentsline {subsection}{\numberline {23}Теорема о деревьях}{24}{subsection.0.23}%
+\contentsline {subsection}{\numberline {24}Остовное дерево}{25}{subsection.0.24}%
+\contentsline {subsection}{\numberline {25}Изоморфные графы}{26}{subsection.0.25}%
+\contentsline {subsection}{\numberline {26}Плоский граф}{26}{subsection.0.26}%
+\contentsline {subsection}{\numberline {27}Формула Эйлера}{27}{subsection.0.27}%
+\contentsline {subsection}{\numberline {28}Критерий планарности}{29}{subsection.0.28}%
+\contentsline {subsection}{\numberline {29}Теорема о художественной галерее}{30}{subsection.0.29}%
+\contentsline {subsection}{\numberline {30}Теорема Фари}{31}{subsection.0.30}%
+\contentsline {section}{Раскраски графов}{34}{section*.38}%
+\contentsline {subsection}{\numberline {31}Раскраски графов}{34}{subsection.0.31}%
+\contentsline {subsection}{\numberline {32}Хроматическое число графа}{34}{subsection.0.32}%
+\contentsline {subsection}{\numberline {33}Теорема Брукса}{35}{subsection.0.33}%
+\contentsline {section}{Паросочетания}{38}{section*.40}%
+\contentsline {subsection}{\numberline {34}Паросочетания в двудольном графе}{38}{subsection.0.34}%
+\contentsline {subsection}{\numberline {35}Паросочетания в графах общего вида}{39}{subsection.0.35}%
+\contentsline {subsection}{\numberline {36}Несовершенные паросочетания}{40}{subsection.0.36}%
+\contentsline {subsection}{\numberline {37}Теорема Петерсена}{41}{subsection.0.37}%
+\contentsline {subsection}{\numberline {38}Паросочетания с предпочтениями}{41}{subsection.0.38}%
+\contentsline {subsection}{\numberline {39}Связность и разделяющие множества}{44}{subsection.0.39}%
+\contentsline {subsection}{\numberline {40}Вершинное покрытие}{45}{subsection.0.40}%
+\contentsline {section}{Реберные раскраски}{46}{section*.42}%
+\contentsline {subsection}{\numberline {41}Реберные раскраски}{46}{subsection.0.41}%
+\contentsline {section}{Теория Рамсея}{50}{section*.43}%
+\contentsline {subsection}{\numberline {42}Теория Рамсея}{50}{subsection.0.42}%
+\contentsline {subsection}{\numberline {43}Числа Рамсея}{50}{subsection.0.43}%
+\contentsline {subsection}{\numberline {44}Оценки на числа Рамсея}{51}{subsection.0.44}%
+\contentsline {subsection}{\numberline {45}Следствия}{52}{subsection.0.45}%
+\contentsline {section}{Теорема Ван-дер-Вардена}{55}{section*.49}%
+\contentsline {subsection}{\numberline {46}Теорема Ван-дер-Вардена}{55}{subsection.0.46}%
+\contentsline {subsection}{\numberline {47}Малые значения параметров и база индукции}{55}{subsection.0.47}%
+\contentsline {subsection}{\numberline {48}VDW(3, 2)}{55}{subsection.0.48}%
+\contentsline {subsection}{\numberline {49}VDW(3, 3)}{57}{subsection.0.49}%
+\contentsline {subsection}{\numberline {50}VDW(4, 2)}{58}{subsection.0.50}%
+\contentsline {subsection}{\numberline {51}Доказательство теоремы}{59}{subsection.0.51}%

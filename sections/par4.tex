@@ -1,0 +1,17 @@
+\subsection{Формулы}
+
+\begin{defn}
+    Базис $\mathcal{F}$ --- некоторое подмножество булевых функций.
+\end{defn}
+
+\begin{defn}
+    Формула над базисом $\mathcal{F}$ определяется по индукции:
+    
+    \textsl{База}: любая функция $f \in \mathcal{F}$ является формулой над $\mathcal{F}$. 
+    
+    \textsl{Индукционный переход}: Если  $f(x_1, \ldots ,x_n)$ - формула над базисом $\mathcal{F}$, а $\Phi_1, \ldots ,\Phi_n$ - либо формулы над $\mathcal{F}$, либо переменные, то тогда $f(\Phi_1, \ldots ,\Phi_n)$ - формула над базисом $\mathcal{F}$.
+    
+    \begin{example}
+         $(x \vee y) \wedge x$ --- формула над базисом $\{ \vee, \wedge \}$.
+    \end{example}
+\end{defn}
